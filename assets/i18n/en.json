@@ -1,8 +1,14 @@
 {
-    "about_tba": "About Coming Soon",
-    "blog_tba": "Blog Coming Soon",
-    "home_tba": "Home Coming Soon",
-    "contact_tba": "Contact Coming Soon",
-    "interests_tba": "Interests Coming Soon",
-    "portfolio_tba": "Portfolio Coming Soon"
+    "blog": "Blog",
+    "blog_description": "Feel free to read my blog. I started this blog when I started university and it contains updates from throughout my studies as well as details on my accomplishments and achievements.",
+    "blog_heading": "My personal blog",
+    "copyright_footer": "Genaro Bedenko 2020",
+    "home": "Home",
+    "home_heading": "Hi, I'm Genaro Bedenko",
+    "home_subheading": "Full Stack Web Developer",
+    "name": "Genaro Bedenko",
+    "portfolio": "Portfolio",
+    "portfolio_description": "View my portfolio for an overview of my personal projects including details on each public repository.",
+    "portfolio_heading": "Showcase of my personal projects",
+    "published_label": "Published:"
 }
