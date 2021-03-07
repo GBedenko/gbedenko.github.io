@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+:root {
+    --primary-color: #b55400;
+    --secondary-color: #eeeeee;
+    --primary-background-color: #393e46;
+    --secondary-background-color: #222831;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+.secondary-color {
+    color: var(--secondary-color);
+}
+.primary-background-color {
+    background-color: var(--primary-background-color);
+}
+.secondary-background-color {
+    background-color: var(--secondary-color);
+}
+
+#welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+#introName {
+    font-size: 42px;
+}
+#introTitle {
+    font-size: 18px;
+    opacity: 0.0;
+    animation: opacity-appear 2s linear 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opacity-appear {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+#introNameOne {
+    opacity: 0.0;
+    animation: opacity-appear 2s;
+    animation-fill-mode: forwards;
+}
+
+#introNameTwo {
+    opacity: 0.0;
+    animation: opacity-appear 2s linear 1s;
+    animation-fill-mode: forwards;
+}
+
+#linkedinLogo {
+    opacity: 0.0;
+    animation: opacity-appear 2s linear 3s;
+    animation-fill-mode: forwards;
+}
+#githubLogo {
+    opacity: 0.0;
+    animation: opacity-appear 2s linear 3.75s;
+    animation-fill-mode: forwards;
+}
+#blogLogo {
+    opacity: 0.0;
+    animation: opacity-appear 2s linear 4.5s;
+    animation-fill-mode: forwards;
+}
+
+#chevronDownContainer {
+    margin-top: 30vh;
+    margin-bottom: 35vh;
+    opacity: 0.0;
+    animation: opacity-appear 2s linear 5s;
+    animation-fill-mode: forwards;
+}
+
+#topicContainers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topic-container {
+    padding: 4%;
+    background-color: var(--secondary-color);
+    width: 80%;
+    margin: 5% 25%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.topic-container p {
+    margin-top: 2%;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .topic-container {
+        padding: 2%;
+    }
+    .topic-container p {
+        font-size: 1.5rem;
+    }
+}
